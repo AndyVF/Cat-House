@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap');
+
+.container {
+    background-image: url(https://4.bp.blogspot.com/-9yv1LgF1IUU/VuFczUMA4EI/AAAAAAAABF4/BraZ0cXfGp8/s1600/contoh%2Bsertifikat%2Bblue.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.teste {
+    font-size: 1.2em;
+    text-align: center; 
+    color: rgba(0, 0, 0, 0.699); 
+    opacity: 85%;
+    margin-top: 50px;
+}
+
+
+
+.Miau {
+    width: 200px;
+    height: 70%;
+    opacity: 100%;
+    margin-top: 42px;
+    background-attachment: fixed;
+    
+}
+
+
+.carimbo {
+    width: 26%;
+    height: 12%;
+    margin-left: 1007px;
+    margin-top: -250px;
+    
+}
+
+.perfil{
+    width: 15%;
+    height: 32vh;
+    margin-top: -250px;
+    border-style:outset;
+    border-color: rgba(243, 209, 55, 0.623);
+    margin-left: 150px;
+    border-radius: 115% 115%;
+
+    
+    
+}
+
+.garf {
+    width: 15%;
+    height: 30%;
+    margin-left: 43%;
+    align-items: center;
+    opacity: 82%;
+    
+
+}
+
+.titulo {
+    margin-top: -105px;
+    font-family: 'EB Garamond', serif;
+    font-size: 2.2em;
+}
+
+.cert {
+    font-family: 'Unna', serif;
+    margin-left: 7%;
+    font-size: 1.6em;
+    opacity: 65%;
+    margin-top: 5%;
+}
+
+.codigoDeLocalizacao{
+display: flex;
+text-align: center;
+margin-top: 10%;
+justify-content: center;
+opacity: 65%;
+}

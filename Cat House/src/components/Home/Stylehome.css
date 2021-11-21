@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #FBFDFD;
+    position: absolute;
+    z-index: 1;
+}
+
+#conteudo {
+    padding: 3.5em 3em;
+    width: 50%;
+}
+
+#imagem {
+    padding: 4em 6em;
+    width: 50%;
+}
+
+#imagem img {
+    border-radius: 20%;
+    width: 420px;
+    height: 420px;
+}
+
+#texto {
+    width: 30vw;
+    height: auto;
+}
+
+#texto h1 {
+    width: 13vw;
+    text-align: start;
+    line-height: 3.5rem;
+    font-size: 65px;
+    color: #ffde59;
+}
+#texto p {
+    text-align: start;
+}
+
+.span-cat {
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    color: #ffde59;
+}
+.span-house {
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    color:#199ef6;
+}
+.saiba-mais {
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    color:#199ef6;
+}
+.clique-galeria {
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    color: #ffde59;
+}
+
+span {
+    color: rgb(43, 43, 255);
+}
+
+#botoes {
+    display: flex;
+    justify-content: flex-start;
+    width: 35vw;
+}
+
+.btn1 {
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px black;
+    padding: 15px;
+    font-size: 0.8em;
+    margin-right: 1rem;
+    width: 7vw;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #ffde59;
+    transition: 0.5s;
+}
+
+.btn2 {
+    background-color: #199ef6;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 3px black;
+    width: 7vw;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+    #texto {
+        height: 70vh;
+    }
+    #texto p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+   
+   #conteudo {
+       height: 65vh;
+       width: 60%;
+       padding: 0 1em;
+   }
+
+    #container {
+        align-items: center;
+    }
+    #imagem {
+        display: none;
+    }
+    #texto {
+        width: 85vw;
+        font-size: 12px;
+    }
+
+    #texto h1{
+        line-height: 2.5rem;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #botoes {
+        width: 100%;
+    }
+
+    .btn1 {
+        width: 30vw;
+        padding: 10px;
+    }
+
+    .btn2 {
+        width: 30vw;
+        padding: 10px;     
+    }
+    
+}
+
+@media (min-width: 750px) and (max-width: 2560px) and (min-height: 1024px) {
+
+    #container {
+        overflow: hidden;
+    }
+    #conteudo {
+        padding: 15em 3em;
+    }
+    #texto {
+        width: 100%;
+        font-size: 30px;
+    }
+    #texto h1 {
+        font-size: 60px;
+        line-height: 4rem;
+    }
+    #botoes {
+        width: 100%;
+    }
+
+    .btn1 {
+        width: 25vw;
+    }
+    .btn2 {
+        width: 25vw;
+    }
+    #imagem {
+        padding: 20em 10em;
+    }
+}
+
+@media (width: 2560px) {
+    #texto {
+        font-size: 35px;
+    }
+    #texto h1 {
+        line-height: 6rem;
+        font-size: 100px;
+    }
+    #imagem {
+        padding: 32em;
+    }
+}

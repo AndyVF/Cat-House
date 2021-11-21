@@ -1,0 +1,46 @@
+.ul-logo {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.botaoHome {
+    background: none;
+    border: none;
+    width: 8vw;
+    height: 15vh;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    background-color: #ffde59;
+    z-index: 1;
+    height: 12vh;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.616);
+    z-index: 2;
+}
+
+.logo {
+    width: 105px;
+    height: 100px;
+}
+
+@media (max-width: 800px) {
+    .logo {
+        height: 122px;
+    }
+}
+
+@media (max-height: 400px) {
+
+    .logo {
+        height: 60px;
+    }
+}
+@media (min-width: 750px) and (max-width: 2560px) and (min-height: 1024px) {
+    .logo {
+        width: 200px;
+        height: 220px;
+    }
+}
